@@ -1,6 +1,4 @@
 import React from "react";
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "@constants/data";
 
 export default function Hero() {
@@ -21,7 +19,7 @@ export default function Hero() {
         <h2 className="text-2xl">Frontend | Design | Mobile Apps</h2>
         {/* Icons container */}
         <div className="mt-2 flex justify-center md:justify-start">
-          <a href="/">
+          <a href={userData.resumeUrl} target="__blank">
             <button className=" flex flex-row items-center space-x-4 rounded-full bg-white text-gray-900 py-2 px-5 shadow">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download h-4 w-4" viewBox="0 0 16 16">
                 <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
