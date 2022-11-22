@@ -20,7 +20,6 @@ export default function Home({ repositories }) {
       <Hero />
       <AboutMe />
       <Experience />
-      {/* <LatestCode repositories={repositories} /> */}
       <Education />
       <Projects />
     </ContainerBlock>
