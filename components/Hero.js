@@ -16,7 +16,7 @@ export default function Hero() {
         <h1 className="text-4xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
           Hi I'm Mirza. A Software Developer
         </h1>
-        <h2 className="text-2xl">Frontend | Design | Mobile Apps</h2>
+        <h2 className="text-2xl">Frontend | Backend | Mobile Apps</h2>
         {/* Icons container */}
         <div className="mt-2 flex justify-center md:justify-start">
           <a href={userData.resumeUrl} target="__blank">

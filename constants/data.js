@@ -29,9 +29,9 @@ const userData = {
   experience: [
     {
       title: "Junior Software Engineer",
-      company: "NFT Technologies",
+      company: "Redsquare Software Sdn. Bhd.",
       year: "Sept 2021 - Present",
-      companyLink: "",
+      companyLink: "https://www.redsquare.software/",
       details: [
         {
           desc: "Maintain the new Chinapress website by fixing bugs and add new features.",
@@ -74,9 +74,9 @@ const userData = {
       details: [
         {
           desc: [
-            "Involved in frontend and backed development of an AI fall detection system.",
+            "Involved in frontend and backed development of an AI fall detection webapp.",
             "Uses Angular and vanilla CSS to code the frontend based on Figma design.",
-            "Used Golang to query/update data from DB and write the graphql resolvers.",
+            "Uses Golang to query/update data from DB and write the graphql resolvers.",
             "Wrote a Flutter app to connect IoT device to Wi-Fi using Bluetooth.",
           ],
           stack: ["Angular", "TypeScript", "Golang", "GraphQL", "PostgreSQL", "Docker", "Flutter", "Firebase"],
@@ -89,7 +89,7 @@ const userData = {
       title: "Bachelor in Information Technology (Hons), Information Systems Engineering",
       school: "Universiti Teknologi MARA Kampus Jasin, Melaka, Malaysia",
       year: "2017 -2021",
-      exam: "CGPA 3.81",
+      exam: "CGPA 3.83",
     },
     {
       title: "Foundation In Engineering",
@@ -105,7 +105,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/15UZ1ZC6kdrhaVADuFvc5R0PEewpt9JrF/view?usp=share_link",
+    "https://drive.google.com/file/d/1O_gvVtig3ADuSBSoDqL_z7Jf66KaJc_r/view?usp=share_link",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/mirza-syahmi/",
     github: "https://github.com/mirza-sync",
