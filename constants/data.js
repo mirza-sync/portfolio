@@ -87,7 +87,7 @@ const userData = {
   education: [
     {
       title: "Bachelor in Information Technology (Hons), Information Systems Engineering",
-      school: "Universiti Teknologi MARA Kampus Jasin, Melaka, Malaysia",
+      school: "Universiti Institut Teknologi MARA (UiTM), Malaysia",
       year: "2017 -2021",
       exam: "CGPA 3.83",
     },
