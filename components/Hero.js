@@ -14,7 +14,7 @@ export default function Hero() {
       {/* Text container */}
       <div className="w-full md:w-1/2 text-center md:text-left mb-10 md:my-10 lg:p-20 lg:pl-0">
         <h1 className="text-4xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
-          Hi I'm Mirza. A Software Developer
+          Hi, I'm Mirza. A Software Developer
         </h1>
         <h2 className="text-2xl">Frontend | Backend | Mobile Apps</h2>
         {/* Icons container */}

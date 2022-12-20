@@ -20,21 +20,26 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a young & enthusiast software developer. I'm eager to learn new things to improve my skillset.",
+      `I'm a software developer with 2 years working experience. My work experience are mostly on frontend, 
+      but I'm also interested in learning backend, mobile app or full-stack development.`,
     description: [
+      `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
+      It is like having a superpower. With great power, comes great responsibility. 
+      Hence, I wanted to build software that will give positive impact for people.`,
       `My work experience focuses on frontend develoment. I love to do CSS, make interactive & responsive websites to provide viewers with good user experience.`,
+      `I'm familiar with Flutter mobile app development, BLoC state management and app notification.`,
       `I'm also familiar with backend development using Golang, PHP (Laravel) & Java, along with databases such as MySQL and Firebase.`,
     ],
   },
   experience: [
     {
-      title: "Junior Software Engineer",
+      title: "Frontend Developer",
       company: "Redsquare Software Sdn. Bhd.",
-      year: "Sept 2021 - Present",
+      year: "Sep 2021 - Present",
       companyLink: "https://www.redsquare.software/",
       details: [
         {
-          desc: "Maintain the new Chinapress website by fixing bugs and add new features.",
+          desc: "Maintain the new Chinapress website by fixing bugs and adding new features.",
           link: "https://mywheels.my/",
           stack: ["Next.js", "Redux", "Graphql", "Ant Design"],
         },
@@ -43,7 +48,7 @@ const userData = {
           stack: ["React", "Rest API", "Axios", "Ant Design"],
         },
         {
-          desc: "Work together with Monsta team in developing an interactive marketplace webapp for Monsta web3 game.",
+          desc: "Work together with Monsta team in developing an interactive marketplace webapp for Monsta Infinite web3 game.",
           link: "https://marketplace.monstainfinite.com/marketplace",
           stack: ["React", "Typescript", "Ethers.js", "Graphql", "Styled-Components"],
         },
@@ -57,10 +62,10 @@ const userData = {
       details: [
         {
           desc: [
-            "Lead the frontend development of a webapp for Android device access control.",
+            "Lead the frontend development of a webapp for Android device data leakage protection.",
             "Code the UI based on the design created by the UI/UX designer.",
-            "Work closely with backend C# developer to implement API on the frontend using Axios.",
-            "Train and mentor an intern by doing code reviews.",
+            "Work closely with remote backend C# developer to implement API on the frontend using Axios.",
+            "Train and mentor a junior developer by doing code reviews.",
           ],
           stack: ["Vue3", "TypeScript", "Vuex", "RestAPI", "Swagger", "PrimeVue"],
         },
@@ -74,10 +79,11 @@ const userData = {
       details: [
         {
           desc: [
-            "Involved in frontend and backed development of an AI fall detection webapp.",
+            "Involved in full-stack development of an AI fall detection webapp.",
             "Uses Angular and vanilla CSS to code the frontend based on Figma design.",
-            "Uses Golang to query/update data from DB and write the graphql resolvers.",
-            "Wrote a Flutter app to connect IoT device to Wi-Fi using Bluetooth.",
+            "Uses Golang to query/update data from database and write the graphql resolvers.",
+            "Involved in designing & developing a mobile app prototype using Flutter that receives fall notification from Firebase (FCM).",
+            "Wrote a Flutter app to connect IoT device to Wi-Fi through Bluetooth.",
           ],
           stack: ["Angular", "TypeScript", "Golang", "GraphQL", "PostgreSQL", "Docker", "Flutter", "Firebase"],
         },
@@ -87,13 +93,13 @@ const userData = {
   education: [
     {
       title: "Bachelor in Information Technology (Hons), Information Systems Engineering",
-      school: "Universiti Institut Teknologi MARA (UiTM), Malaysia",
+      school: "Universiti Teknologi MARA (Kampus Jasin), Melaka, Malaysia",
       year: "2017 -2021",
       exam: "CGPA 3.83",
     },
     {
       title: "Foundation In Engineering",
-      school: "Universiti Teknologi MARA Kampus Dengkil, Selangor, Malaysia",
+      school: "Universiti Teknologi MARA (Kampus Dengkil), Selangor, Malaysia",
       year: "2016 -2017",
       exam: "CGPA 3.33",
     },
@@ -105,7 +111,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1O_gvVtig3ADuSBSoDqL_z7Jf66KaJc_r/view?usp=share_link",
+    "https://drive.google.com/file/d/1WeQTTEErotPcZZKYYV9hp9J4y38tSFgC/view?usp=share_link",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/mirza-syahmi/",
     github: "https://github.com/mirza-sync",
