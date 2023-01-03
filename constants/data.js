@@ -8,6 +8,11 @@ const userData = {
   address: "Johor, Malaysia",
   projects: [
     {
+      title: "Connect Metamask",
+      link: "https://github.com/mirza-sync/connect-metamask",
+      imgUrl: "/projects/connect-meta.png",
+    },
+    {
       title: "E-Voting",
       link: "https://github.com/mirza-sync/evoting2",
       imgUrl: "/projects/votes_chart.png",
