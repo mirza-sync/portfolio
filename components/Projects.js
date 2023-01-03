@@ -11,7 +11,7 @@ export default function Projects() {
       </div>
       {/* Grid starts here */}
       <div className="bg-[#F1F1F1] dark:bg-gray-900 -mt-10">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40 px-4 md:px-0 max-w-6xl mx-auto">
           {userData.projects.map((proj, idx) => (
             <ProjectCard
               title={proj.title}
@@ -29,7 +29,7 @@ export default function Projects() {
 const ProjectCard = ({ title, link, imgUrl, number }) => {
   return (
     <a href={link} target="_blank" className="w-full block shadow-2xl">
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden rounded">
         <div className="h-72 object-cover">
           <img
             src={imgUrl}
