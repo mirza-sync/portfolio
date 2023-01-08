@@ -1,6 +1,5 @@
 # My Portfolio
-
-Test
+Porfolio made using NextJS and tailwind CSS.
 
 ## Reference
 Inspired by: https://manuarora.in/blog/developer-portfolio-website
