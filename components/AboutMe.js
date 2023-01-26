@@ -42,23 +42,25 @@ export default function AboutMe() {
                 and I'll get back to you.
               </p>
             </div>
-            <div className="mt-8">
-              <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
-                Job Opportunities
-              </h1>
-              <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
-                I'm looking for a job currently. If you see me as a good fit,
-                check out my{" "}
-                <a
-                  href={userData.resumeUrl}
-                  target="__blank"
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
-                  resume
-                </a>{" "}
-                and I'd love to work for you.
-              </p>
-            </div>
+            {userData.isJobHunting && (
+              <div className="mt-8">
+                <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                  Job Opportunities
+                </h1>
+                <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+                  I'm looking for a job currently. If you see me as a good fit,
+                  check out my{" "}
+                  <a
+                    href={userData.resumeUrl}
+                    target="__blank"
+                    className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                  >
+                    resume
+                  </a>{" "}
+                  and I'd love to work for you.
+                </p>
+              </div>
+            )}
             {/* Social Links */}
             <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
               Social Links
