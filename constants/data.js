@@ -121,7 +121,7 @@ const userData = {
     linkedin: "https://www.linkedin.com/in/mirza-syahmi/",
     github: "https://github.com/mirza-sync",
   },
-  isJobHunting: false,
+  isJobHunting: true,
 };
 
 export default userData;
