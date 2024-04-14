@@ -40,7 +40,7 @@ const userData = {
     {
       title: "Frontend Developer",
       company: "Redsquare Software Sdn. Bhd.",
-      year: "Sep 2021 - Present",
+      year: "Sep 2021 - Jan 2022",
       companyLink: "https://www.redsquare.software/",
       details: [
         {
