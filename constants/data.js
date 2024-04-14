@@ -25,15 +25,15 @@ const userData = {
   ],
   about: {
     title:
-      `I'm a software developer with 2 years working experience. My work experience are mostly on frontend, 
-      but I'm also interested in learning backend, mobile app or full-stack development.`,
+      `I'm a software developer with 3 years working experience in frontend, backend, and a little bit of mobile app development.`,
     description: [
       `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
       It is like having a superpower. With great power, comes great responsibility. 
       Hence, I wanted to build software that will give positive impact for people.`,
-      `My work experience focuses on frontend develoment. I love to do CSS, make interactive & responsive websites to provide viewers with good user experience.`,
-      `I'm familiar with Flutter mobile app development, BLoC state management and app notification.`,
-      `I'm also familiar with backend development using Golang, PHP (Laravel) & Java, along with databases such as MySQL and Firebase.`,
+      `I love to do CSS, make interactive & responsive websites to provide viewers with good user experience.`,
+      `I can also do backend development using Java, Golang and PHP.`,
+      `I'm familiar with Flutter mobile app development, BLoC state management and in-app notification.`,
+      `I'm eager to learn other languages, concepts and frameworks to keep myself up to date with the latest trends.`,
     ],
   },
   experience: [
