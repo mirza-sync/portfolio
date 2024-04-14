@@ -1,7 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
 import useSWR from "swr";
-import Image from 'next/image'
 
 export default function AboutMe() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
