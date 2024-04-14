@@ -116,7 +116,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/1-Dd8STQkz_hhcMr2I8TYQNkVkvVNhzE-/view?usp=sharing",
+    "https://drive.google.com/file/d/1unne-7JXbI4BlZgFiDXwvdo6LUE1qqjN/view?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/mirza-syahmi/",
     github: "https://github.com/mirza-sync",
