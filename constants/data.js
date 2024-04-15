@@ -38,6 +38,20 @@ const userData = {
   },
   experience: [
     {
+      title: "Software Engineer",
+      company: "Tiong Nam Logistics Solutions Sdn. Bhd.",
+      year: "Mar 2022 - Present",
+      companyLink: "https://www.tiongnam.com/",
+      details: [
+        {
+          desc: [
+            "Design and develop a Transport Management System web application that supports company's day-to-day logistic operations to handle customers' orders and delivery records.",
+          ],
+          stack: ["Angular", "TypeScript", "Java (Spring Boot)", "RestAPI", "Microservices"],
+        },
+      ]
+    },
+    {
       title: "Frontend Developer",
       company: "Redsquare Software Sdn. Bhd.",
       year: "Sep 2021 - Jan 2022",
