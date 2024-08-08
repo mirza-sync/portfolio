@@ -25,7 +25,7 @@ const userData = {
   ],
   about: {
     title:
-      `I'm a software developer with 3 years working experience in frontend, backend, and a little bit of mobile app development.`,
+      `I'm a software developer with 3+ years working experience in frontend, backend, and a little bit of mobile app development.`,
     description: [
       `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
       It is like having a superpower. With great power, comes great responsibility. 
@@ -40,7 +40,7 @@ const userData = {
     {
       title: "Software Engineer",
       company: "Tiong Nam Logistics Solutions Sdn. Bhd.",
-      year: "Mar 2022 - Present",
+      year: "Mar 2023 - Present",
       companyLink: "https://www.tiongnam.com/",
       details: [
         {
@@ -54,7 +54,7 @@ const userData = {
     {
       title: "Frontend Developer",
       company: "Redsquare Software Sdn. Bhd.",
-      year: "Sep 2021 - Jan 2022",
+      year: "Sep 2021 - Jan 2023",
       companyLink: "https://www.redsquare.software/",
       details: [
         {
@@ -69,7 +69,7 @@ const userData = {
         {
           desc: "Work together with Monsta team in developing an interactive marketplace webapp for Monsta Infinite web3 game.",
           link: "https://marketplace.monstainfinite.com/marketplace",
-          stack: ["React", "Typescript", "Ethers.js", "Graphql", "Styled-Components"],
+          stack: ["React", "Typescript", "Ethers.js", "GraphQL", "Styled-Components"],
         },
       ],
     },
@@ -130,7 +130,7 @@ const userData = {
     },
   ],
   resumeUrl:
-    "https://drive.google.com/file/d/17-wVvXds71_hnGpxSlqs41fjB3kpgif6/view?usp=sharing",
+    "https://drive.google.com/file/d/1JRe23debo7WVYbU2P-qC5xS0BXA3OPDw/view?usp=sharing",
   socialLinks: {
     linkedin: "https://www.linkedin.com/in/mirza-syahmi/",
     github: "https://github.com/mirza-sync",
