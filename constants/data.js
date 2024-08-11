@@ -24,7 +24,7 @@ const userData = {
     },
     {
       title: "Nitflix UI",
-      link: " ",
+      link: "https://nitflix-six.vercel.app/home",
       imgUrl: "/projects/nitflix.png",
     },
   ],
