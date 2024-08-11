@@ -22,6 +22,11 @@ const userData = {
       link: "https://github.com/mirza-sync/PCWorld_v2.5",
       imgUrl: "/projects/recommend.png",
     },
+    {
+      title: "Nitflix UI",
+      link: " ",
+      imgUrl: "/projects/nitflix.png",
+    },
   ],
   about: {
     title:
