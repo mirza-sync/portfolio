@@ -5,7 +5,7 @@ const userData = {
   avatarUrl: "/Mirza-picture.jpg",
   email: "mirzasyahmi123@gmail.com",
   phone: "+6011-56551091",
-  address: "Johor, Malaysia",
+  address: "Malaysia",
   projects: [
     {
       title: "Nitflix UI",
