@@ -8,9 +8,9 @@ const userData = {
   address: "Johor, Malaysia",
   projects: [
     {
-      title: "Connect Metamask",
-      link: "https://github.com/mirza-sync/connect-metamask",
-      imgUrl: "/projects/connect-meta.png",
+      title: "Nitflix UI",
+      link: "https://nitflix-six.vercel.app",
+      imgUrl: "/projects/nitflix.png",
     },
     {
       title: "E-Voting",
@@ -23,14 +23,14 @@ const userData = {
       imgUrl: "/projects/recommend.png",
     },
     {
-      title: "Nitflix UI",
-      link: "https://nitflix-six.vercel.app",
-      imgUrl: "/projects/nitflix.png",
+      title: "Connect Metamask",
+      link: "https://github.com/mirza-sync/connect-metamask",
+      imgUrl: "/projects/connect-meta.png",
     },
   ],
   about: {
     title:
-      `I'm a software developer with 3+ years working experience in frontend, backend, and a little bit of mobile app development.`,
+      `I'm a software developer with 4 years working experience in frontend, backend, and a little bit of mobile app development.`,
     description: [
       `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
       It is like having a superpower. With great power, comes great responsibility. 
@@ -42,6 +42,22 @@ const userData = {
     ],
   },
   experience: [
+    {
+      title: "Frontend Developer",
+      company: "Astro Holdings Berhad",
+      year: "Dec 2024 - Present",
+      companyLink: "https://www.astro.com.my/",
+      details: [
+        {
+          desc: [
+            "Maintain and optimize an account management web application used by Astro subscribers, ensuring a smooth and reliable user experience.",
+            "Migrate the styling library from Material UI + Styled Components to Tailwind CSS, improving maintainability and efficiency",
+            "Ensure code quality and reliability by writing comprehensive unit and integration tests using Jest, contributing to a robust and maintainable codebase."
+          ],
+          stack: ["Next.js", "TypeScript", "Jest", "Tailwind", "React SWR", "Zustand"],
+        },
+      ]
+    },
     {
       title: "Software Engineer",
       company: "Tiong Nam Logistics Solutions Sdn. Bhd.",
