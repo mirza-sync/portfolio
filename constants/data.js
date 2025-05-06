@@ -13,6 +13,11 @@ const userData = {
       imgUrl: "/projects/nitflix.png",
     },
     {
+      title: "Kalm",
+      link: "https://mirza-sync.github.io/kalm/",
+      imgUrl: "/projects/kalm.png",
+    },
+    {
       title: "E-Voting",
       link: "https://github.com/mirza-sync/evoting2",
       imgUrl: "/projects/votes_chart.png",
