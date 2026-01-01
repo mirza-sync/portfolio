@@ -50,7 +50,7 @@ const userData = {
     {
       title: "Frontend Developer",
       company: "Astro Holdings Berhad",
-      year: "Dec 2024 - Present",
+      year: "Dec 2024 - Sept 2025",
       companyLink: "https://www.astro.com.my/",
       details: [
         {
@@ -66,7 +66,7 @@ const userData = {
     {
       title: "Software Engineer",
       company: "Tiong Nam Logistics Solutions Sdn. Bhd.",
-      year: "Mar 2023 - Present",
+      year: "Mar 2023 - Nov 2024",
       companyLink: "https://www.tiongnam.com/",
       details: [
         {
@@ -107,10 +107,10 @@ const userData = {
       details: [
         {
           desc: [
-            "Lead the frontend development of a webapp for Android device data leakage protection.",
-            "Code the UI based on the design created by the UI/UX designer.",
-            "Work closely with remote backend C# developer to implement API on the frontend using Axios.",
-            "Train and mentor a junior developer by doing code reviews.",
+            "Lead the frontend development of a webapp for enterprise Android device management dashboard.",
+            "Code responsive UI based on Figma design.",
+            "Liase remotely with backend C# developer to implement API on the frontend using Axios.",
+            "Train and mentor junior developer by doing code reviews.",
           ],
           stack: ["Vue3", "TypeScript", "Vuex", "RestAPI", "Swagger", "PrimeVue"],
         },
@@ -126,7 +126,7 @@ const userData = {
           desc: [
             "Involved in full-stack development of an AI fall detection webapp.",
             "Uses Angular and vanilla CSS to code the frontend based on Figma design.",
-            "Uses Golang to query/update data from database and write the graphql resolvers.",
+            "Uses Golang to query/update data from database and write the GraphQL resolvers.",
             "Involved in designing & developing a mobile app prototype using Flutter that receives fall notification from Firebase (FCM).",
             "Wrote a Flutter app to connect IoT device to Wi-Fi through Bluetooth.",
           ],
