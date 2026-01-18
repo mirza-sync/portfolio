@@ -42,51 +42,53 @@ export default function Experience() {
 const ExperienceCard = ({ title, details, year, company, companyLink }) => {
   return (
     <div className="experience-card border p-5 rounded-md shadow-xl bg-white dark:bg-gray-800 z-10 mx-4">
-      <p className="text-gray-400 font-bold dark:text-gray-200">
-        {year}
-      </p>
+      <p className="text-gray-400 font-bold dark:text-gray-200">{year}</p>
       <h1 className="font-semibold text-xl">{title}</h1>
       <a href={companyLink} className="text-gray-500 dark:text-gray-300">
         {company}
       </a>
-      {details.length > 1 ? (
-        details.map((detail, idx) => (
-          <div className="mt-2">
-            <span className="text-gray-600 dark:text-gray-300 my-2">{detail.desc}</span>
-            {detail.link && <a href={detail.link} className="font-medium"> (Project Link)</a>}
+      {details.length > 1
+        ? details.map((detail, idx) => (
             <div className="mt-2">
-              <div className="font-semibold">Tech Stack:</div> {
-                detail.stack.map((stack, i) => (
+              <span className="text-gray-600 dark:text-gray-300 my-2">
+                {detail.desc}
+              </span>
+              {detail.link && (
+                <a href={detail.link} className="font-medium">
+                  {" "}
+                  (Project Link)
+                </a>
+              )}
+              <div className="mt-2">
+                <div className="font-semibold">Tech Stack:</div>{" "}
+                {detail.stack.map((stack, i) => (
                   <span className="text-sm inline-block bg-black-100 dark:bg-gray-900 text-gray-800 dark:text-white shadow rounded-full px-2 py-1 mr-2 mb-1">
                     {stack}
                   </span>
-                ))
-              }
+                ))}
+              </div>
+              {!isLast(idx, details) && <hr className="my-3" />}
             </div>
-            {!isLast(idx, details) && <hr className="my-3" />}
-          </div>
-        ))
-      ) : (
-        details.map((detail, idx) => (
-          <div className="mt-2">
-            <ul>
-              {detail.desc.map((desc, i) => (
-                <li className="text-gray-600 dark:text-gray-300 my-0 ml-5 list-disc">{desc}</li>
-              ))}
-            </ul>
-            <div className="mt-3 mr-0">
-              <div className="font-semibold">Tech Stack:</div>
-              {
-                detail.stack.map((stack, i) => (
+          ))
+        : details.map((detail, idx) => (
+            <div className="mt-2">
+              <ul>
+                {detail.desc.map((desc, i) => (
+                  <li className="text-gray-600 dark:text-gray-300 my-0 ml-5 list-disc">
+                    {desc}
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-3 mr-0">
+                <div className="font-semibold">Tech Stack:</div>
+                {detail.stack.map((stack, i) => (
                   <span className="text-sm inline-block bg-black-100 dark:bg-gray-900 text-gray-800 dark:text-white shadow rounded-full px-2 py-1 mr-2 mb-1">
                     {stack}
                   </span>
-                ))
-              }
+                ))}
+              </div>
             </div>
-          </div>
-        ))
-      )}
+          ))}
     </div>
   );
 };
