@@ -7,6 +7,7 @@ export default function AboutMe() {
   const { data } = useSWR("/api/getImages", fetcher);
 
   const getImageName = (path) => {
+    // Example path relative to public folder: \techStack\a6-typescript.svg
     const imageName = path.split("\\")[2].split(".")[0].split("-")[1];
     return imageName;
   };
