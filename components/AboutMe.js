@@ -8,9 +8,13 @@ export default function AboutMe() {
 
   const getImageName = (path) => {
     // Example path relative to public folder: \techStack\a6-typescript.svg
-    console.log("Path", path, typeof path);
+    // Note: prod will use "/" while dev uses "\"
+    const folderSeparator = process.env.NODE_ENV === "production" ? "/" : "\\";
 
-    const imageName = path.split("/")[2].split(".")[0].split("-")[1];
+    const imageName = path
+      .split(folderSeparator)[2]
+      .split(".")[0]
+      .split("-")[1];
     return imageName;
   };
 
