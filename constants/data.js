@@ -40,7 +40,7 @@ const userData = {
       `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
       It is like having a superpower. With great power, comes great responsibility. 
       Hence, I wanted to build software that will give positive impact for people.`,
-      `I love to do CSS, make interactive & responsive websites to provide viewers with good user experience.`,
+      `I love to do CSS, making interactive, pixel-perfect & responsive websites to ensure a good user experience.`,
       `I can also do backend development using Java, Golang and PHP.`,
       `I'm familiar with Flutter mobile app development, BLoC state management and in-app notification.`,
       `I'm eager to learn other languages, concepts and frameworks to keep myself up to date with the latest trends.`,
@@ -59,6 +59,7 @@ const userData = {
             "Migrate the styling library from Material UI + Styled Components to Tailwind CSS, improving maintainability and efficiency",
             "Ensure code quality and reliability by writing comprehensive unit and integration tests using Jest, contributing to a robust and maintainable codebase."
           ],
+          link: "https://myastro.astro.com.my/",
           stack: ["Next.js", "TypeScript", "Jest", "Tailwind", "React SWR", "Zustand"],
         },
       ]
