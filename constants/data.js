@@ -34,8 +34,7 @@ const userData = {
     },
   ],
   about: {
-    title:
-      `I'm a software developer with 4 years working experience in frontend, backend, and a little bit of mobile app development.`,
+    title: `I'm a software developer with 4 years working experience in frontend, backend, and a little bit of mobile app development.`,
     description: [
       `What I like about coding is the ability to create cool stuff with just a laptop and internet connection. 
       It is like having a superpower. With great power, comes great responsibility. 
@@ -57,12 +56,19 @@ const userData = {
           desc: [
             "Maintain and optimize an account management web application used by Astro subscribers, ensuring a smooth and reliable user experience.",
             "Migrate the styling library from Material UI + Styled Components to Tailwind CSS, improving maintainability and efficiency",
-            "Ensure code quality and reliability by writing comprehensive unit and integration tests using Jest, contributing to a robust and maintainable codebase."
+            "Ensure code quality and reliability by writing comprehensive unit and integration tests using Jest, contributing to a robust and maintainable codebase.",
           ],
           link: "https://myastro.astro.com.my/",
-          stack: ["Next.js", "TypeScript", "Jest", "Tailwind", "React SWR", "Zustand"],
+          stack: [
+            "Next.js",
+            "TypeScript",
+            "Jest",
+            "Tailwind",
+            "React SWR",
+            "Zustand",
+          ],
         },
-      ]
+      ],
     },
     {
       title: "Software Engineer",
@@ -74,9 +80,15 @@ const userData = {
           desc: [
             "Design and develop a Transport Management System web application that supports company's day-to-day logistic operations to handle customers' orders and delivery records.",
           ],
-          stack: ["Angular", "TypeScript", "Java (Spring Boot)", "RestAPI", "Microservices"],
+          stack: [
+            "Angular",
+            "TypeScript",
+            "Java (Spring Boot)",
+            "RestAPI",
+            "Microservices",
+          ],
         },
-      ]
+      ],
     },
     {
       title: "Frontend Developer",
@@ -96,7 +108,13 @@ const userData = {
         {
           desc: "Work together with Monsta team in developing an interactive marketplace webapp for Monsta Infinite web3 game.",
           link: "https://marketplace.monstainfinite.com/marketplace",
-          stack: ["React", "Typescript", "Ethers.js", "GraphQL", "Styled-Components"],
+          stack: [
+            "React",
+            "Typescript",
+            "Ethers.js",
+            "GraphQL",
+            "Styled-Components",
+          ],
         },
       ],
     },
@@ -113,9 +131,16 @@ const userData = {
             "Liase remotely with backend C# developer to implement API on the frontend using Axios.",
             "Train and mentor junior developer by doing code reviews.",
           ],
-          stack: ["Vue3", "TypeScript", "Vuex", "RestAPI", "Swagger", "PrimeVue"],
+          stack: [
+            "Vue3",
+            "TypeScript",
+            "Vuex",
+            "RestAPI",
+            "Swagger",
+            "PrimeVue",
+          ],
         },
-      ]
+      ],
     },
     {
       title: "Software Developer Intern",
@@ -131,14 +156,24 @@ const userData = {
             "Involved in designing & developing a mobile app prototype using Flutter that receives fall notification from Firebase (FCM).",
             "Wrote a Flutter app to connect IoT device to Wi-Fi through Bluetooth.",
           ],
-          stack: ["Angular", "TypeScript", "Golang", "GraphQL", "PostgreSQL", "Docker", "Flutter", "Firebase"],
+          stack: [
+            "Angular",
+            "TypeScript",
+            "Golang",
+            "GraphQL",
+            "PostgreSQL",
+            "Docker",
+            "Flutter",
+            "Firebase",
+          ],
         },
-      ]
+      ],
     },
   ],
   education: [
     {
-      title: "Bachelor in Information Technology (Hons), Information Systems Engineering",
+      title:
+        "Bachelor in Information Technology (Hons), Information Systems Engineering",
       school: "Universiti Teknologi MARA (Kampus Jasin), Melaka, Malaysia",
       year: "2017 -2021",
       exam: "CGPA 3.83",
