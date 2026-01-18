@@ -4,7 +4,7 @@ import useSWR from "swr";
 
 export default function AboutMe() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
-  const { data } = useSWR('/api/getImages', fetcher);
+  const { data } = useSWR("/api/getImages", fetcher);
 
   return (
     <section id="about" className="bg-white dark:bg-gray-800">
@@ -33,9 +33,7 @@ export default function AboutMe() {
               </h1>
               <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
                 You can contact me through my email{" "}
-                <span
-                  className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
-                >
+                <span className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300">
                   {userData.email}
                 </span>{" "}
                 and I'll get back to you.
@@ -109,13 +107,17 @@ export default function AboutMe() {
             </div>
             <div className="flex flex-row flex-wrap mt-3 mb-5 justify-center md:justify-start">
               {!data && "Loading..."}
-              {data && data.map((imgPath, idx) => {
-                return (
-                  <div key={idx} className="dark:bg-white dark:rounded-lg dark:m-1">
-                    <img src={imgPath} alt='' className="h-20 w-20 mx-4 my-4" />
-                  </div>
-                )
-              })}
+              {data &&
+                data.map((imgPath, idx) => {
+                  return (
+                    <div
+                      key={idx}
+                      className="dark:bg-white dark:rounded-lg dark:m-1"
+                    >
+                      <img src={imgPath} className="h-20 w-20 mx-4 my-4" />
+                    </div>
+                  );
+                })}
             </div>
           </div>
         </div>
