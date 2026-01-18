@@ -58,6 +58,7 @@ const userData = {
             "Migrate the styling library from Material UI + Styled Components to Tailwind CSS, improving maintainability and efficiency",
             "Ensure code quality and reliability by writing comprehensive unit and integration tests using Jest, contributing to a robust and maintainable codebase.",
           ],
+          projectName: "MyAstro Web",
           link: "https://myastro.astro.com.my/",
           stack: [
             "Next.js",
@@ -97,9 +98,10 @@ const userData = {
       companyLink: "https://www.redsquare.software/",
       details: [
         {
-          desc: "Maintain the new Chinapress website by fixing bugs and adding new features.",
+          desc: "Maintain the new Chinapress' automobile website by fixing bugs and adding new features.",
+          projectName: "MyWheels",
           link: "https://mywheels.my/",
-          stack: ["Next.js", "Redux", "Graphql", "Ant Design"],
+          stack: ["Next.js", "Redux", "GraphQL", "Ant Design"],
         },
         {
           desc: "Involved in upgrading MyEG's old car transfer website to a modernized version.",
@@ -107,6 +109,7 @@ const userData = {
         },
         {
           desc: "Work together with Monsta team in developing an interactive marketplace webapp for Monsta Infinite web3 game.",
+          projectName: "Monsta Infinite",
           link: "https://marketplace.monstainfinite.com/marketplace",
           stack: [
             "React",
