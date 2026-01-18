@@ -6,6 +6,11 @@ export default function AboutMe() {
   const fetcher = (url) => fetch(url).then((res) => res.json());
   const { data } = useSWR("/api/getImages", fetcher);
 
+  const getImageName = (path) => {
+    const imageName = path.split("\\")[2].split(".")[0].split("-")[1];
+    return imageName;
+  };
+
   return (
     <section id="about" className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
@@ -112,8 +117,11 @@ export default function AboutMe() {
                   return (
                     <div
                       key={idx}
-                      className="dark:bg-white dark:rounded-lg dark:m-1"
+                      className="dark:bg-white dark:rounded-lg dark:m-1 relative group"
                     >
+                      <div className="hidden group-hover:block absolute -top-1 -left-1 px-2 py-1 rounded-lg bg-white shadow text-black font-bold capitalize">
+                        {getImageName(imgPath)}
+                      </div>
                       <img src={imgPath} className="h-20 w-20 mx-4 my-4" />
                     </div>
                   );
