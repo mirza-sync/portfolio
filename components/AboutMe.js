@@ -8,6 +8,8 @@ export default function AboutMe() {
 
   const getImageName = (path) => {
     // Example path relative to public folder: \techStack\a6-typescript.svg
+    console.log("Path", path);
+
     const imageName = path.split("\\")[2].split(".")[0].split("-")[1];
     return imageName;
   };
